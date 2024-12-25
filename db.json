@@ -1,0 +1,25 @@
+{
+  "profile": [
+    {
+      "username": "mansi ",
+      "email": "mansi123@gmail.com",
+      "password": "123456",
+      "number": "07389835904",
+      "id": 1
+    },
+    {
+      "username": "ritik",
+      "email": "ritik@gmail.com",
+      "password": "123456",
+      "number": "7389835904",
+      "id": 2
+    },
+    {
+      "username": "mansi ",
+      "email": "mansi@gmail.com",
+      "password": "123458",
+      "number": "7389835904",
+      "id": 3
+    }
+  ]
+}

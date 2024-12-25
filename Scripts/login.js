@@ -1,3 +1,5 @@
+import { baseUrl } from "./baseUrl.js";
+console.log(baseUrl);
 let form = document.getElementById("Loginform");
 form.addEventListener("submit", function (event) {
   event.preventDefault();
@@ -7,7 +9,7 @@ form.addEventListener("submit", function (event) {
   let userObj = { email, password };
   console.log(userObj);
 
-  fetch("http://localhost:3000/user")
+  fetch(`${baseUrl}/profile`)
     .then((res) => res.json())
     .then((data) => {
       let user = data.filter((el, i) => el.email == email);

@@ -1,4 +1,4 @@
-import { baseUrl } from "./baseUrl";
+import { baseUrl } from "./baseUrl.js";
 
 let form = document.getElementById("Signupform");
 form.addEventListener("submit", function (event) {
@@ -10,7 +10,7 @@ form.addEventListener("submit", function (event) {
   let userObj = { username, email, password, number };
   console.log(userObj);
 
-  fetch(`${baseUrl}/user`)
+  fetch(`${baseUrl}/profile`)
     .then((res) => res.json())
     .then((data) => {
       let user = data.filter((el, i) => el.email == email);
@@ -18,7 +18,7 @@ form.addEventListener("submit", function (event) {
         alert("already regitered");
         window.location.href = "/Login.html";
       } else {
-        fetch(`${baseUrl}/user`, {
+        fetch(`${baseUrl}/profile`, {
           method: "POST",
           headers: {
             "content-type": "application/json",
