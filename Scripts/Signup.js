@@ -1,5 +1,5 @@
 import { baseUrl } from "./baseUrl.js";
-
+console.log(baseUrl);
 let form = document.getElementById("Signupform");
 form.addEventListener("submit", function (event) {
   event.preventDefault();
