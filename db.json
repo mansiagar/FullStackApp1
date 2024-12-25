@@ -20,6 +20,20 @@
       "password": "123458",
       "number": "7389835904",
       "id": 3
+    },
+    {
+      "username": "sunita",
+      "email": "sunita@gmail.com",
+      "password": "123456789",
+      "number": "8109141788",
+      "id": 4
+    },
+    {
+      "username": "paras",
+      "email": "paras@gmail.com",
+      "password": "1234",
+      "number": "8959068556",
+      "id": 5
     }
   ]
 }
